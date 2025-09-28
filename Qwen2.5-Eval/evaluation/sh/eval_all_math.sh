@@ -31,7 +31,7 @@ if [ "$ALL_EXIST" = true ]; then
     done
 else
     TOKENIZERS_PARALLELISM=false \
-    python3 -u math_eval.py \
+    python -u math_eval.py \
         --model_name_or_path ${MODEL_NAME_OR_PATH} \
         --data_name ${DATA_NAMES} \
         --output_dir ${OUTPUT_DIR} \
@@ -71,7 +71,7 @@ if [ "$ALL_EXIST" = true ]; then
     done
 else
     TOKENIZERS_PARALLELISM=false \
-    python3 -u math_eval.py \
+    python -u math_eval.py \
         --model_name_or_path ${MODEL_NAME_OR_PATH} \
         --data_name ${DATA_NAMES} \
         --output_dir ${OUTPUT_DIR} \
