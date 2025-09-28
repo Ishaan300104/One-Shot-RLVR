@@ -3,7 +3,7 @@ PROMPT_TYPE="qwen25-math-cot"
 export CUDA_VISIBLE_DEVICES="0,1,2,3"
 MAX_TOKENS="3072"
 
-# CHECKPOINTS_DIR=... # replace with your own path for storing checkpoints
+CHECKPOINTS_DIR="C:\Users\uvisy\.cache\huggingface\hub\models--ypwang61--One-Shot-RLVR-Qwen2.5-Math-1.5B-pi1" # replace with your own path for storing checkpoints
 
 
 
