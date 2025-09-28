@@ -44,7 +44,7 @@ else
         --top_p 1 \
         --start 0 \
         --end -1 \
-        --use_vllm \
+        # --use_vllm \
         --save_outputs \
         --max_tokens_per_call ${MAX_TOKENS_PER_CALL} \
         --overwrite 

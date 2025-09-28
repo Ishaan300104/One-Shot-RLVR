@@ -12,7 +12,7 @@ peft
 pyarrow>=15.0.0
 pybind11
 pylatexenc
-ray
+# ray
 tensordict<0.6
 transformers
 vllm==0.6.3.post1
