@@ -32,7 +32,8 @@ if [ "$ALL_EXIST" = true ]; then
 else
     TOKENIZERS_PARALLELISM=false \
     python -u math_eval.py \
-        --model_name_or_path ${MODEL_NAME_OR_PATH} \
+        # --model_name_or_path ${MODEL_NAME_OR_PATH} \
+        --model_name_or_path "C:/Users/uvisy/Desktop/FMGA_minor/One-Shot-RLVR/verl_few_shot/Qwen2.5-Math-1.5B-pi1_r128/global_step_20/actor" \
         --data_name ${DATA_NAMES} \
         --output_dir ${OUTPUT_DIR} \
         --split ${SPLIT} \
