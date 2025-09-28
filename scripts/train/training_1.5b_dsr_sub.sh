@@ -1,7 +1,7 @@
 #!/bin/bash
 set -x
 
-CHECKPOINTS_DIR=MODIFIED_checkpoints
+CHECKPOINTS_DIR=MODIFIED_checkpoints_dsr
 
 export VLLM_ATTENTION_BACKEND=XFORMERS
 

@@ -1,11 +1,11 @@
 #!/bin/bash
 set -x
 
-# CHECKPOINTS_DIR=... # TODO: change to your own path
+CHECKPOINTS_DIR=MODIFIED_checkpoints_pi1
 
 export VLLM_ATTENTION_BACKEND=XFORMERS
 
-python3 -m verl.trainer.main_ppo \
+python -m verl.trainer.main_ppo \
  algorithm.adv_estimator=grpo \
  data.train_files=data/train/one_shot_rlvr/pi1_r128.parquet \
  data.val_files=data/test/math500.parquet \
